@@ -62,6 +62,7 @@ resetElement.addEventListener("click", () => {
     timerInterval = null;
     secondsElement.textContent = defaultSeconds;
     minuteElement.textContent = defaultMinutes;
-    toggleStartPauseButton();
+    startElement.classList.remove("hide-btn");
+    pauseElement.classList.add("hide-btn");
     timer.style.color = "black";
 })
