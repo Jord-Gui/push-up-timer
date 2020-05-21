@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 15em 0;
+}
+
+h1, p{
+    margin: 0;
+}
+
+.timer {
+    font-size: 4em;
+    font-weight: bold;
+    margin: .5em 0;
+}
+
+button {
+    background-color: greenyellow;
+    border-color: green;
+    font-size: 1em;
+}
+
+.hide-btn {
+    display: none;
+}
+
+.reset {
+    background-color: white;
+    border-color: white;
+}
